@@ -15,3 +15,4 @@ data/*.db-*
 data/*.bak
 *.log
 tsconfig.tsbuildinfo
+.env*.local

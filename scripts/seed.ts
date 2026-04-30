@@ -1,7 +1,3 @@
-import { config } from "dotenv";
-config({ path: ".env.local" });
-config({ path: ".env" });
-
 import bcrypt from "bcryptjs";
 import { db } from "../src/lib/db";
 import * as schema from "../src/lib/schema";
