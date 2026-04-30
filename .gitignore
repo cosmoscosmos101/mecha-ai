@@ -1,0 +1,17 @@
+node_modules
+.next
+.env
+.env.local
+.env.*.local
+.vercel
+.DS_Store
+.cursor
+.idea
+.vscode
+data/uploads/*
+!data/uploads/.gitkeep
+data/*.db
+data/*.db-*
+data/*.bak
+*.log
+tsconfig.tsbuildinfo
