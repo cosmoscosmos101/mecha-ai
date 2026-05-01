@@ -3,6 +3,7 @@ import { read } from "@/lib/db";
 import { CourseCard } from "@/components/course-card";
 import { Stagger, StaggerItem, FadeUp } from "@/components/motion-primitives";
 import { Hero } from "@/components/hero";
+import { HowItWorks } from "@/components/how-it-works";
 import { fmtNum } from "@/lib/utils";
 import { ArrowRight, Sparkles, Wrench, ChartBar, BadgeCheck } from "lucide-react";
 
@@ -27,6 +28,8 @@ export default async function HomePage() {
           <Stat icon={<ChartBar className="size-4" />} label="คอมมิชชั่นเฉลี่ย" value="30%" />
         </Stagger>
       </section>
+
+      <HowItWorks />
 
       <section className="container-page mt-24">
         <FadeUp className="flex items-end justify-between mb-8">
