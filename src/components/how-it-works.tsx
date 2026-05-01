@@ -63,7 +63,7 @@ export function HowItWorks() {
   });
 
   return (
-    <section ref={sectionRef} className="container-page mt-32 mb-24">
+    <section ref={sectionRef} className="container-page py-16 md:py-20">
       <FadeHeader />
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">

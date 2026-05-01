@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import type { SessionPayload } from "@/lib/auth";
 
 const items = [
+  { href: "/start", label: "เริ่มต้น" },
   { href: "/courses", label: "คอร์ส" },
   { href: "/upload", label: "อัปโหลดคลิป" },
   { href: "/dashboard", label: "แดชบอร์ด" },
